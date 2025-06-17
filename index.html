@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dev_enma | Portfolio</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #1e1e2f, #2f2f44);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      max-width: 480px;
+      width: 100%;
+      margin: auto;
+    }
+    .profile {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .profile img {
+      width: 120px; height: 120px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .profile h1 {
+      font-size: 1.8rem;
+      margin-bottom: 5px;
+    }
+    .profile p {
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+    .link {
+      background: #4e4e7e;
+      padding: 14px;
+      border-radius: 12px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: background 0.3s;
+      cursor: pointer;
+    }
+    .link:hover {
+      background: #6f6f9e;
+    }
+    .section {
+      background: #2e2e4e;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    }
+    h2 {
+      margin-bottom: 15px;
+      color: #f0c040;
+      text-align: center;
+    }
+    ul.projects {
+      list-style: none;
+      margin-bottom: 25px;
+    }
+    ul.projects li {
+      margin-bottom: 15px;
+      font-size: 1rem;
+      line-height: 1.4;
+      background: #444466;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: inset 0 0 10px #222244;
+    }
+    .project-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #ffdd57;
+      margin-bottom: 6px;
+    }
+    .project-links a {
+      color: #aaddff;
+      text-decoration: underline;
+      margin-right: 12px;
+      font-weight: 600;
+    }
+    .contact-info {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+    .contact-info a {
+      color: #f0c040;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+        <img src="pfp.jpg" alt="avatar" />
+
+      <h1>Dev_enma</h1>
+      <p>Frontend Developer & Portfolio Designer</p>
+      <p><em>Contacto vía Instagram y GitHub</em></p>
+    </div>
+
+    <section class="section" id="projects">
+      <h2>Proyectos Destacados</h2>
+      <ul class="projects">
+        <li>
+          <div class="project-title">Proyecto: Dev_enma Portfolio</div>
+          <div>Un portafolio personal para mostrar trabajos y proyectos hecho en mi transcurso como programador.</div>
+          <div class="project-links">
+            <a href="https://github.com/DevEnmaaa/portfolio" target="_blank" rel="noopener">Código en GitHub</a>
+            <a href="https://devenmaaa.vercel.app" target="_blank" rel="noopener">Proyecto en vivo</a>
+          </div>
+        </li>
+        <!-- futuros nuevos proyectos -->
+      </ul>
+    </section>
+
+    <div class="contact-info">
+      📸 Instagram: <a href="https://instagram.com/heyy._enmx" target="_blank" rel="noopener">@heyy._enmx</a><br/>
+      🔗 GitHub: <a href="https://github.com/DevEnmaaa" target="_blank" rel="noopener">github.com/DevEnmaaa</a>
+    </div>
+  </div>
+</body>
+</html>
